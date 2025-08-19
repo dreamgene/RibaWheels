@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riba Wheels</title>
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="css/nav.css" /> -->
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body class="bg-[#0D1B2A] font-sans ">
+    <div id="navbar-placeholder"></div>
+
+
+    <section class="hero-section w-full" aria-label="Hero Section">
+
+        <div class="hero-content-container mt-5 flex flex-wrap py-8 justify-center items-center ">
+
+            <div class="hero-content-box mx-5">
+
+                <h1 class="hero-title text-5xl text-white mr-5">
+                    Purchase With Blockchain Trust.
+                </h1>
+                <p class="hero-subtitle text-white text">
+                    Secured transactions powered by web 3 and verified validators
+                </p>
+
+
+                <div class="find-container pr-4 mx-auto">
+
+                    <h1 class="text-xl font-black text-white whitespace-nowrap mb-2">Find Your Perfect Car</h1>
+
+                    <div class="search-container flex flex-wrap items-center gap-4 ">
+
+                        <div class="search-input-wrapper  ">
+
+                            <input type="text" placeholder="Search by keyword..."
+                                class="search-input  p-2 border rounded bg-white">
+                        </div>
+
+                        <div class="filters-wrapper flex flex-wrap gap-2">
+
+                            <div>
+                                <select class=" filter-select p-2 border rounded bg-white ">
+                                    <option value="">Make</option>
+                                    <option value="toyota">Toyota</option>
+                                    <option value="honda">Honda</option>
+                                    <option value="ford">Ford</option>
+                                    <option value="bmw">BMW</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <select class="filter-select p-2 border rounded bg-white">
+                                    <option value="">Model</option>
+                                    <option value="corolla">Corolla</option>
+                                    <option value="civic">Civic</option>
+                                    <option value="mustang">Mustang</option>
+                                    <option value="x5">X5</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <select class="filter-select p-2 border rounded bg-white">
+                                    <option value="">Year</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <select class="filter-select p-2 border rounded bg-white">
+                                    <option value="">Price</option>
+                                    <option value="0-10k">$0 - $10,000</option>
+                                    <option value="10k-20k">$10,000 - $20,000</option>
+                                    <option value="20k-50k">$20,000 - $50,000</option>
+                                    <option value="50k+">$50,000+</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button
+                        class="search-button px-4 mt-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 whitespace-nowrap">
+                        Search
+                    </button>
+
+                </div><!--  end of search -->
+
+            </div>
+
+            <div class="hero-img">
+                <img src="images/top-car.png" class="w-[400px]">
+            </div>
+        </div>
+
+    </section>
+
+    <h2 class="text-white text-xl m-2 ml-[70px]">Car Listing</h2>
+
+    <div class="cars-container w-96 flex flex-wrap w-[95vw]  text-white mb-[70px] mx-auto ">
+
+        <div class="w-full md:w-1/2 lg:w-1/5 h-full mx-auto border-2 border-white rounded-lg">
+
+            <img src="images/products/gle1.jpg" class="w-[250px] mx-auto mt-2">
+
+            <div class="car-details flex justify-between px-2  w-full py-4 ">
+                <div class="car-details-l text-lft">
+                    <p class="carName">Mercedes GLE53 </p>
+                    <p class="carStatus">Nigerian Used </p>
+                    <p class="Amount fontblack"><span class="currency">$</span> 97,855</p>
+                </div>
+                <div class="car-details-r text-right">
+                    <p class="carYear">2021 </p>
+                    <p class="carMilage">10,000<span>Mi</span> </p>
+                    <button onclick="window.location.href='product.html?car=gle53'" class="shopnow border-2 border-white p-1 rounded">Shop Now</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/5 h-full mx-auto border-2 border-white rounded-lg">
+
+            <img src="images/products/bmw1.jpeg" class="w-[250px] mt-2 mx-auto">
+
+            <div class="car-details flex justify-between px-2  w-full py-4">
+                <div class="car-details-l flex-start">
+                    <p class="carName">BMW M4 </p>
+                    <p class="carStatus">London Used </p>
+                    <p class="Amount"><span class="currency">$</span> 48,000</p>
+                </div>
+                <div class="car-details-r text-right">
+                    <p class="carYear">2023 </p>
+                    <p class="carStatus">25,490<span>Mi</span> </p>
+                    <button onclick="window.location.href='product.html?car=bmwM4'" class="shopnow border-2 border-white p-1 rounded">Shop Now</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/5 h-full mx-auto border-2 border-white rounded-lg ">
+
+            <img src="images/products/range1.jpg" class="w-[250px] mt-2 mx-auto">
+
+            <div class="car-details flex justify-between px-2 w-full py-4 ">
+                <div class="car-details-l text-left">
+                    <p class="carName">Range Rover </p>
+                    <p class="carStatus">London Used </p>
+                    <p class="Amount"><span class="currency">$</span> 49,980</p>
+                </div>
+                <div class="car-details-r text-right">
+                    <p class="carYear">2021 </p>
+                    <p class="carStatus">150,000<span>Mi</span> </p>
+                    <button onclick="window.location.href='product.html?car=rangeRover'" class="shopnow border-2 border-white p-1 rounded">Shop Now</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/5 h-full mx-auto border-2 border-white rounded-lg ">
+
+            <img src="images/products/cruiser1.jpg" class="w-[250px] mt-2 mx-auto">
+
+            <div class="car-details flex justify-between px-2  w-full py-4">
+                <div class="car-details-l text-left">
+                    <p class="carName">Toyota Land Cruiser </p>
+                    <p class="carStatus">Nigerian Used </p>
+                    <p class="Amount"><span class="currency">$</span> 69,390</p>
+                </div>
+                <div class="car-details-r text-right">
+                    <p class="carYear">2025 </p>
+                    <p class="carStatus ">100,000<span>Mi</span> </p>
+                    <button onclick="window.location.href='product.html?car=landCruiser'" class="shopnow border-2 border-white p-1 rounded">Shop Now</button>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!--end of cars -->
+
+
+
+    <!-- how to -->
+    <div class="text-white text-2xl m-2 ml-[70px]  text-center mx-auto">
+        <h2>How this works</h2>
+        <p class=" text-lg"> Securely purchase a car in 3 easy steps</p>
+    </div>
+
+    <div class="works-container w-full flex flex-wrap w-[95vw]  text-white mb-5  mx-auto ">
+
+        <div class="w-full md:w-1/2 lg:w-1/4 h-full mx-auto rounded-lg bg-[#1E1764] 
+            flex flex-col justify-center items-center py-8 mb-2">
+            <div> <img src="images/icons/search.png" class="w-[50px] mx-auto mt-2"> </div>
+            <div>
+                <h2 class="text-2xl">Search Cars</h2>
+            </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/4 h-full mx-auto rounded-lg bg-[#1E1764] flex flex-col 
+            justify-center items-center py-8 mb-2">
+            <div> <img src="images/icons/crest.png" class="w-[50px] mx-auto mt-2"> </div>
+            <div>
+                <h2 class="text-2xl">Choose Validator</h2>
+            </div>
+        </div>
+
+        <div
+            class="w-full md:w-1/2 lg:w-1/4 h-full mx-auto rounded-lg bg-[#1E1764] flex flex-col justify-center items-center py-8">
+            <div> <img src="images/icons/crest-tick.png" class="w-[50px] mx-auto mt-2"> </div>
+            <div>
+                <h2 class="text-2xl">Securely Complete Transaction</h2>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+<div id="footer-placeholder"></div>
+
+
+
+
+
+
+  
+
+
+
+    <!-- nav-bar-include -->
+    <script src="js/nav.js"></script>
+    <!--  mobile menu toggle functionality -->
+    <script src="js/nav-toggle.js"></script>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>

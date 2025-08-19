@@ -1,0 +1,24 @@
+*,
+::after,
+::before {
+box-sizing:boder-box;    
+}
+
+
+.filter-select {
+  background-image: url("data:image/svg+xml,...");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  padding-right: 2.5rem;
+}
+
+ .star-rating span {
+            color: #fbbf24; /* Amber color for stars */
+            font-size: 1.25rem; /* Large stars */
+        }
+        .star-rating .empty-star {
+            dispaly: none; /* Light gray for empty stars */
+        }
+
+        body{background-color: rgb(14, 14, 43)}
+

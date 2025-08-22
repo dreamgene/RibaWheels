@@ -16,7 +16,7 @@
 
 <body class=" font-sans ">
     <div id="navbar-placeholder"></div>
-    <script src="js/nav.js"></script>
+    
 
     <div class="flex w-4/5 flex-col md:flex-row mx-auto ">
 
@@ -87,7 +87,7 @@
                     <p class="text-gray-100 text-xs text-center">Validations: 867</p>
                     <p class="text-gray-100 text-xs text-center">Success Rate: 94.6%</p>
                     <input type="radio" name="selectedValidator" value="validator1"
-                        class=" w-5 h-5 accent-[#00E5FF]">
+                        class=" w-5 h-5 accent-[#00E5FF]" id="validator1">
                 </label>
 
                 <!-- Validator 2 -->
@@ -104,7 +104,7 @@
                     <p class="text-gray-100 text-xs text-center">Validations: 1600</p>
                     <p class="text-gray-100 text-xs text-center">Success Rate: 96.7%</p>
                     <input type="radio" name="selectedValidator" value="validator2"
-                        class=" w-5 h-5 accent-[#00E5FF]">
+                        class=" w-5 h-5 accent-[#00E5FF]" id="validator2">
                 </label>
 
                 <!-- Validator 3 -->
@@ -121,7 +121,7 @@
                     <p class="text-gray-100 text-xs text-center">Validations: 1107</p>
                     <p class="text-gray-100 text-xs text-center">Success Rate: 96.9%</p>
                     <input type="radio" name="selectedValidator" value="validator3"
-                        class=" w-5 h-5 accent-[#00E5FF]">
+                        class=" w-5 h-5 accent-[#00E5FF]" id="validator3">
                 </label>
 
                 <!-- Validator 4 -->
@@ -138,7 +138,7 @@
                     <p class="text-gray-100 text-xs text-center">Validations: 2715</p>
                     <p class="text-gray-100 text-xs text-center">Success Rate: 96.5%</p>
                     <input type="radio" name="selectedValidator" value="validator4"
-                        class=" w-5 h-5 accent-[#00E5FF]">
+                        class=" w-5 h-5 accent-[#00E5FF]" id="validator4">
                 </label>
 
                 <!-- Validator 5 -->
@@ -155,7 +155,7 @@
                     <p class="text-gray-100 text-xs text-center">Validations: 1092</p>
                     <p class="text-gray-100 text-xs text-center">Success Rate: 93.3%</p>
                     <input type="radio" name="selectedValidator" value="validator5"
-                        class=" w-5 h-5 accent-[#00E5FF]">
+                        class=" w-5 h-5 accent-[#00E5FF]" id="validator5">
                 </label>
 
                 <!-- Validator 6 -->
@@ -172,7 +172,7 @@
                     <p class="text-gray-100 text-xs text-center">Validations: 308</p>
                     <p class="text-gray-100 text-xs text-center">Success Rate: 91.1%</p>
                     <input type="radio" name="selectedValidator" value="validator6"
-                        class=" w-5 h-5 accent-[#00E5FF]">
+                        class=" w-5 h-5 accent-[#00E5FF]" id="validator6">
                 </label>
 
                 <!-- Validator 7 -->
@@ -189,7 +189,7 @@
                     <p class="text-gray-100 text-xs text-center">Validations: 1839</p>
                     <p class="text-gray-100 text-xs text-center">Success Rate: 98.1%</p>
                     <input type="radio" name="selectedValidator" value="validator7"
-                        class=" w-5 h-5 accent-[#00E5FF]">
+                        class=" w-5 h-5 accent-[#00E5FF]" id="validator7">
                 </label>
 
             </div>
@@ -200,11 +200,14 @@
 
     <!-- checkout button -->
     <div class="text-center mt-8">
-        <button
-            class="bg-blue-600 hover:bg-blue-700 text-white font-semibold mb-5 py-3 px-8 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
-            Checkout
-        </button>
+        <button 
+  id="checkoutBtn" 
+  class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-bold mt-6">
+  Checkout
+</button>
     </div>
+
+    
 
 
 
@@ -222,6 +225,7 @@
     <script src="js/nav-toggle.js"></script>
     <script src="js/car-gallery.js"></script>
     <script src="js/car-details.js"></script>
+    <script src="js/checkOutBtn.js"></script>
     <script src="js/footer.js"></script>
 
 

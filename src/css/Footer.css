@@ -1,0 +1,13 @@
+/* Footer.css */
+.footer {
+  background-color: #0D1B2A; /* Dark blue background */
+  color: white;             /* White text */
+  text-align: center;       /* Centered text */
+  padding: 1rem;            /* 16px padding top/bottom */
+  font-size: 0.9rem;        /* Slightly smaller text */
+  border-top: 2px solid #1B263B; /* Optional subtle top border */
+}
+
+.footer:hover {
+  background-color: #1B263B; /* Slightly lighter on hover */
+}

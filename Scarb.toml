@@ -1,6 +1,7 @@
 [package]
 name = "ribawheels"
 version = "0.1.0"
+<<<<<<< HEAD
 edition = "2024_07"
 
 # See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
@@ -52,3 +53,10 @@ allow-prebuilt-plugins = ["snforge_std"]
 
 # [features]                                                 # Used for conditional compilation
 # enable_for_tests = []                                      # Feature name and list of other features that should be enabled with it
+=======
+
+[dependencies]
+
+[[target.starknet-contract]]
+path = "src"
+>>>>>>> origin/main

@@ -1,0 +1,4 @@
+# Cairo build artifacts
+target/
+*.swp
+*.swo

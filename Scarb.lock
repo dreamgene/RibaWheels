@@ -2,6 +2,7 @@
 version = 1
 
 [[package]]
+<<<<<<< HEAD
 name = "openzeppelin"
 version = "1.0.0"
 source = "git+https://github.com/OpenZeppelin/cairo-contracts.git?tag=v1.0.0#755ce1adbf8d89ed23fbb8daa328fcbeab7c6424"
@@ -130,3 +131,7 @@ checksum = "sha256:0221bbe959eec72eb2e30be68df66c4ff5dcd924ec491f285c974e49671fa
 dependencies = [
  "snforge_scarb_plugin",
 ]
+=======
+name = "ribawheels"
+version = "0.1.0"
+>>>>>>> origin/main

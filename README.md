@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RibaWheels - Decentralized Car Marketplace
 
 RibaWheels is a decentralized marketplace for car sales built on Starknet. The platform ensures secure transactions through validator-based verification, escrow in STRK and USDC, and NFT-based car ownership certificates.
@@ -10,9 +9,9 @@ RibaWheels is a decentralized marketplace for car sales built on Starknet. The p
 - **Validator System**: Validators must apply and undergo vetting by the admin before becoming active
 - **Validator Rating**: Buyers can rate validators after transactions (1–5 stars) with ratings stored on-chain
 - **Dynamic Validator Fees**: Fees depend on validator rating tiers:
-  - Rating ≥ 4.5 → 3%
-  - Rating ≥ 3.0 and < 4.5 → 2%
-  - Rating < 3.0 → 1%
+    - Rating ≥ 4.5 → 3%
+    - Rating ≥ 3.0 and < 4.5 → 2%
+    - Rating < 3.0 → 1%
 - **Dual-Token Escrow**: Supports both STRK and USDC for secure payments
 - **Car Ownership NFTs**: Each listed car automatically mints an ERC-721 NFT representing ownership
 - **Admin Controls**: Admin can approve/reject validators and remove fraudulent listings
@@ -212,15 +211,6 @@ This is a hackathon project. For issues or suggestions, please open an issue in 
 
 
 
-=======
-# Ribawheels
-
-## Overview
-This is a hackathon project for building a peer-to-peer marketplace on Starknet with:
-- Validator vetting
-- Buyer choice of validator
-- Dynamic validator fees based on rating
-- STARK-only escrow
 
 ## Structure
 - `contracts/` - Cairo smart contracts
@@ -240,4 +230,3 @@ This is a hackathon project for building a peer-to-peer marketplace on Starknet 
 
 ## License
 MIT
->>>>>>> origin/main

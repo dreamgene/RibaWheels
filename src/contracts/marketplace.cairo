@@ -539,6 +539,7 @@ mod RibaWheelsMarketplace {
             assert(has_pauser_role, 'Caller is not a pauser');
             self.pausable.unpause();
         }
+        
 
         fn contract_is_paused(self: @ContractState) -> bool {
             self.pausable.is_paused()

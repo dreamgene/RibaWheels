@@ -11,7 +11,7 @@ mod MockERC20 {
     #[abi(embed_v0)]
     impl ERC20MixinImpl = ERC20Component::ERC20MixinImpl<ContractState>;
     impl ERC20InternalImpl = ERC20Component::InternalImpl<ContractState>;
-
+    
     #[storage]
     struct Storage {
         #[substorage(v0)]

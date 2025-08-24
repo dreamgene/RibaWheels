@@ -11,13 +11,15 @@ const Home = () => {
   return (
     <div className="w-full bg-gray-800">
       {/* Hero Section */}
-      <section className="hero-section  text-white py-20 px-4">
+      <section className="hero-section flex flex-col md:flex-row text-white py-20 px-4">
+
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Find Your Perfect Car</h1>
+          <h1 className="text-6xl md:text-4xl font-bold mb-4">Purchase With Blockchain Trust. </h1>
+          <h2 className="text-4xl md:text-2xl font-bold mb-4">Find Your Perfect Car</h2>
           <p className="text-xl mb-8">Discover amazing deals on quality vehicles</p>
 
           {/* Search Form */}
-          <div className="bg-white rounded-lg p-6 max-w-4xl mx-auto">
+          <div className=" rounded-lg  max-w-2xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <select className="p-3 border rounded-lg text-gray-700">
                 <option>Select Make</option>
@@ -37,12 +39,20 @@ const Home = () => {
                 <option>$20,000 - $50,000</option>
                 <option>$50,000+</option>
               </select>
-              <button className="bg-gray-800 text-white p-3 rounded-lg hover:bg-green-600 transition-colors">
+              <button className="bg-blue-600 text-black p-3 rounded-lg hover:bg-green-600 transition-colors">
                 Search Cars
               </button>
             </div>
           </div>
         </div>
+
+        <div>
+          <img src="images/top-car.png"/>
+        </div>
+
+
+
+
       </section>
 
       {/* Featured Cars Section */}
@@ -123,7 +133,7 @@ const Home = () => {
               </div>
               <div className="text-white">
               <h3 className="text-xl font-bold mb-2">Browse Cars</h3>
-              <p className="">Search through our extensive inventory of quality vehicles</p>
+              {/* <p className="">Search through our extensive inventory of quality vehicles</p> */}
               </div>
             </div>
             <div className="text-center">
@@ -131,8 +141,8 @@ const Home = () => {
                 <span className="text-2xl font-bold text-green-600">2</span>
               </div>
               <div className="text-white">
-              <h3 className="text-xl font-bold mb-2">Schedule Test Drive</h3>
-              <p className="">Book a test drive to experience your chosen vehicle</p>
+              <h3 className="text-xl font-bold mb-2">Choose validator</h3>
+              {/* <p className="">Book a test drive to experience your chosen vehicle</p> */}
               </div>
             </div>
             <div className="text-center">
@@ -141,7 +151,7 @@ const Home = () => {
               </div>
               <div className="text-white">
               <h3 className="text-xl font-bold mb-2">Complete Purchase</h3>
-              <p className="">Finalize your purchase with our easy financing options</p>
+              {/* <p className="">Finalize your purchase with our easy financing options</p> */}
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ function Navbar() {
           <Link to="/" className="text-lg hover:text-cyan-400 transition" onClick={() => setIsOpen(false)}>
             Home
           </Link>
-          <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-4 py-2 rounded-lg transition">
+          <button className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold px-4 py-2 rounded-lg transition">
             Connect Wallet
           </button>
         </div>

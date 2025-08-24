@@ -1,8 +1,6 @@
-import "../css/Footer.css"; // Import the CSS file
-
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="w-full bg-gray-900 text-gray-400 text-center py-4 mt-auto">
       © 2025 Riba Wheels. All rights reserved.
     </footer>
   );
